@@ -1,7 +1,7 @@
 # transform_pytorch_for_tensorflow
 Make transforms Pytorch's function working with Tensorflow
 
-# Check list transforms confirmed by me =]]]
+# Check list transforms checked by me
 - [x] Compose
 - [x] ToTensor
 - [ ] ToPILImage
