@@ -1,7 +1,7 @@
 # transform_pytorch_for_tensorflow
 Make transforms Pytorch's function working with Tensorflow
 
-# Check list transforms checked by me
+# List transforms supported
 - [x] Compose
 - [x] ToTensor
 - [x] ToPILImage
@@ -21,11 +21,14 @@ Make transforms Pytorch's function working with Tensorflow
 - [x] RandomSizedCrop
 - [x] FiveCrop
 - [x] TenCrop
-- [0] LinearTransformation
+- [ ] LinearTransformation
 - [x] ColorJitter
 - [x] RandomRotation
 - [x] RandomAffine
 - [x] Grayscale
 - [x] RandomGrayscale
-- [0] RandomPerspective
-- [0] RandomErasing
+- [ ] RandomPerspective
+- [ ] RandomErasing
+
+# Next stage
+Convert all method to pure Tensorflow
