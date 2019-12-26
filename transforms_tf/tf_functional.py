@@ -3,7 +3,7 @@
 # @Project: transform_pytorch_for_tensorflow
 # @Filename: tf_functional.py
 # @Last modified by:   cong235
-# @Last modified time: 2019-12-25T17:40:20+07:00
+# @Last modified time: 2019-12-26T09:43:02+07:00
 # @License: MIT
 
 from __future__ import division
@@ -146,7 +146,7 @@ def to_pil_image(pic, mode=None):
     Returns:
         PIL Image: Image converted to PIL Image.
     """
-    if not(isinstance(pic, ops.Tensor) or isinstance(pic, np.ndarray)):
+    if not(isinstance(pic, ops.EagerTensor) or isinstance(pic, ops.Tensor) or isinstance(pic, np.ndarray)):
         raise TypeError('pic should be Tensor or ndarray. Got {}.'.format(type(pic)))
 
     elif isinstance(pic, ops.Tensor):

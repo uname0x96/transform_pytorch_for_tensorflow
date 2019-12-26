@@ -3,7 +3,7 @@
 # @Project: transform_pytorch_for_tensorflow
 # @Filename: tf_transforms.py
 # @Last modified by:   cong235
-# @Last modified time: 2019-12-25T17:40:19+07:00
+# @Last modified time: 2019-12-26T09:41:43+07:00
 # @License: MIT
 
 from __future__ import division
@@ -109,7 +109,6 @@ class ToTensor(object):
         Returns:
             Tensor: Converted image.
         """
-        print('ToTensor')
         return F.to_tensor(pic)
 
     def __repr__(self):
@@ -559,7 +558,7 @@ class RandomVerticalFlip(object):
     def __repr__(self):
         return self.__class__.__name__ + '(p={})'.format(self.p)
 
-
+'''STUCK by functional'''
 class RandomPerspective(object):
     """Performs Perspective transformation of the given PIL Image randomly with a given probability.
 

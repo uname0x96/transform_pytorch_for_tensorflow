@@ -4,14 +4,14 @@ Make transforms Pytorch's function working with Tensorflow
 # Check list transforms checked by me
 - [x] Compose
 - [x] ToTensor
-- [ ] ToPILImage
+- [x] ToPILImage
 - [x] Normalize
 - [x] Resize
 - [x] Scale
 - [x] CenterCrop
-- [ ] Pad
-- [ ] Lambda
-- [ ] RandomApply
+- [x] Pad
+- [x] Lambda
+- [x] RandomApply
 - [ ] RandomChoice
 - [ ] RandomOrder
 - [ ] RandomCrop
