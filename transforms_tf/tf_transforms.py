@@ -2,8 +2,8 @@
 # @Date:   2019-12-25T15:32:17+07:00
 # @Project: transform_pytorch_for_tensorflow
 # @Filename: tf_transforms.py
-# @Last modified by:   cong235
-# @Last modified time: 2019-12-26T09:41:43+07:00
+# @Last modified by:
+# @Last modified time: 2019-12-26T11:47:43+07:00
 # @License: MIT
 
 from __future__ import division
@@ -410,7 +410,6 @@ class RandomChoice(RandomTransforms):
     def __call__(self, img):
         t = random.choice(self.transforms)
         return t(img)
-
 
 
 class RandomCrop(object):

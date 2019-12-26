@@ -12,20 +12,20 @@ Make transforms Pytorch's function working with Tensorflow
 - [x] Pad
 - [x] Lambda
 - [x] RandomApply
-- [ ] RandomChoice
-- [ ] RandomOrder
-- [ ] RandomCrop
-- [ ] RandomHorizontalFlip
-- [ ] RandomVerticalFlip
-- [ ] RandomResizedCrop
-- [ ] RandomSizedCrop
-- [ ] FiveCrop
-- [ ] TenCrop
-- [ ] LinearTransformation
-- [ ] ColorJitter
-- [ ] RandomRotation
-- [ ] RandomAffine
-- [ ] Grayscale
-- [ ] RandomGrayscale
-- [ ] RandomPerspective
-- [ ] RandomErasing
+- [x] RandomChoice
+- [x] RandomOrder
+- [x] RandomCrop
+- [x] RandomHorizontalFlip
+- [x] RandomVerticalFlip
+- [x] RandomResizedCrop
+- [x] RandomSizedCrop
+- [x] FiveCrop
+- [x] TenCrop
+- [0] LinearTransformation
+- [x] ColorJitter
+- [x] RandomRotation
+- [x] RandomAffine
+- [x] Grayscale
+- [x] RandomGrayscale
+- [0] RandomPerspective
+- [0] RandomErasing
